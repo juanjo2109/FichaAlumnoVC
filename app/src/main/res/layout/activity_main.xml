@@ -12,7 +12,7 @@
         android:id="@+id/scrollview"
         android:layout_width="409dp"
         android:layout_height="843dp"
-        android:scrollIndicators="none">
+        android:scrollIndicators="start|end">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -27,80 +27,60 @@
                 android:text="Datos Alumno" />
 
             <EditText
-                android:id="@+id/na"
+                android:id="@+id/editTextText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Nombre, Apellidos"
-                android:inputType="textPersonName" />
+                android:hint="Nombre y Apellidos Alumno"
+                android:inputType="text" />
 
             <EditText
-                android:id="@+id/email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Email"
-                android:inputType="textEmailAddress" />
-
-            <EditText
-                android:id="@+id/pw"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Pagina web Personal"
-                android:inputType="textUri" />
-
-            <EditText
-                android:id="@+id/editTextPhone"
+                android:id="@+id/tlf"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Telefono personal"
-                android:inputType="phone" />
+                android:inputType="text" />
 
             <EditText
-                android:id="@+id/fechnac"
+                android:id="@+id/editTextText8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="email"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextText12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Fecha de Nacimiento"
-                android:inputType="date" />
+                android:inputType="text" />
 
             <EditText
-                android:id="@+id/tem"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Telefono de emergencia"
-                android:inputType="phone" />
-
-            <EditText
-                android:id="@+id/altura"
+                android:id="@+id/editTextText11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Altura"
-                android:inputType="numberDecimal" />
+                android:inputType="text" />
 
             <EditText
-                android:id="@+id/alergia"
+                android:id="@+id/editTextText13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:gravity="start|top"
                 android:hint="Alergias"
                 android:inputType="text" />
 
             <EditText
-                android:id="@+id/descripcion"
+                android:id="@+id/editTextText15"
                 android:layout_width="match_parent"
-                android:layout_height="51dp"
+                android:layout_height="wrap_content"
                 android:ems="10"
-                android:gravity="start|top"
-                android:hint="Breve descripcion de proyecto integrado"
-                android:inputType="textMultiLine"
-                android:maxLines="3"
-                android:minLines="2" />
+                android:hint="Breve descripcion del proyecto integrado"
+                android:inputType="text" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -109,45 +89,42 @@
                 android:text="Direccion" />
 
             <EditText
-                android:id="@+id/calle"
+                android:id="@+id/editTextText3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:gravity="start|top"
                 android:hint="Calle"
-                android:inputType="textMultiLine" />
+                android:inputType="text" />
 
             <EditText
-                android:id="@+id/num"
+                android:id="@+id/editTextText4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Numero"
-                android:inputType="number" />
-
-            <EditText
-                android:id="@+id/editTextTextPostalAddress"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Codigo Postal"
-                android:inputType="textPostalAddress" />
-
-            <EditText
-                android:id="@+id/localidad"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="start|top"
-                android:hint="Localidad"
                 android:inputType="text" />
 
             <EditText
-                android:id="@+id/ciudad"
+                android:id="@+id/editTextText5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:gravity="start|top"
+                android:hint="codigo postal"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="localidad"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
                 android:hint="Ciudad"
                 android:inputType="text" />
 
@@ -155,23 +132,31 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Datos de Padrey Madre del Alumno" />
+                android:text="Datos Padre y Madre" />
 
             <EditText
-                android:id="@+id/na2"
+                android:id="@+id/editTextText9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Nombre Y Apellidos del Padre"
-                android:inputType="textPersonName" />
+                android:hint="Nombre y Apellidos del Padre"
+                android:inputType="text" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/editTextText10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Nombre y Apellido de la  Madre"
-                android:inputType="textPersonName" />
+                android:hint="Nombre y Apellidos de la Madre"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextText14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefono de emergencia"
+                android:inputType="text" />
 
         </LinearLayout>
     </ScrollView>
